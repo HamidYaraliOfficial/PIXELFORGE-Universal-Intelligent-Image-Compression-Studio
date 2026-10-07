@@ -1,0 +1,27 @@
+{
+  "goal": "Balanced",
+  "quality_mode": "VisuallyLossless",
+  "output_format": "Auto",
+  "auto_depth": "BalancedAuto",
+  "quality_min": 60,
+  "quality_max": 92,
+  "max_quality_loss": 2.0,
+  "progressive": true,
+  "optimize_huffman": true,
+  "chroma_subsampling": "4:2:0",
+  "effort": 5,
+  "metadata_policy": "Privacy",
+  "remove_gps": true,
+  "privacy_mode": true,
+  "scheduler": {
+    "timezone": "local",
+    "windows": [
+      {"weekday":0,"start":"09:00","end":"17:00"},
+      {"weekday":1,"start":"09:00","end":"17:00"},
+      {"weekday":2,"start":"09:00","end":"17:00"},
+      {"weekday":3,"start":"09:00","end":"17:00"},
+      {"weekday":4,"start":"09:00","end":"17:00"}
+    ],
+    "queue_jobs_only_inside_windows": false
+  }
+}
